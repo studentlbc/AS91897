@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+/*navigation bar*/
+nav{
+    background-color:white;
+    margin:14px;
+    padding:0px;                                                          -
+    border-radius:8px;
+    position: fixed;
+    width: calc(100% - 28px);
+    z-index:11;
+}
+
+ul{
+    list-style-type: none;
+    margin:14px;
+    padding:0px;
+    overflow:hidden;
+    background-color:#FFFFFF;
+    height:30px;
+}
+
+/*logo*/
+ul li.logo{
+    position:absolute;
+    top:-28px;
+    left:20px;
+}
+
+ul li.logo img{
+    width:50px;
+    height:100px;
+    object-fit:contain;
+    display:block;
+}
+
+ul li.logo a{
+    padding: 0px 0px;
+}
+
+
+ul li:not(.logo){
+    float: left;
+    position:relative;
+    left:130px;
+    top:-12px;
+}
+
+/*nav links*/
+ul li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    background-color:rgb(243, 243, 243);
+}
+
+/*text*/
+h1{
+    color:white;
+    font-family:"Krona One", sans-serif;
+    font-size:40px;
+}
+
+h2{
+    font-family:"imprima",sans-serif;
+    color:white; 
+    font-size:22px;
+}
+
+h3{
+    z-index: index 11;
+    color:white;
+    font-family:"imprima",sans-serif;
+    text-align:center;
+}
+
+p{
+    text-align:center;
+
+    color:#eaeaea;
+    font-family:"imprima", sans-serif;
+}
+
+/*button*/
+.button{
+    position:relative;
+    background-color:#FFD148;
+    position:relative;
+    width:100px;
+    height:40px;
+    border:0px;
+    size:100%;
+    border-radius:8px;
+}
+
+.button:hover{
+    background-color:#ffc928;
+    transform: scale(1.01);
+}
+.icon-button{
+    background-color:#AAAAAA;
+    position:absolute;
+    width:300px;
+    height:150px;
+    border:0px;
+}
+
+.icon-button:hover{
+    background-color:#c9c9c9;
+    transform: scale(1.01);
+}
+
+/*footer*/
+body {
+    position: relative;
+    min-height: 1800px;
+}
+
+.footer {
+    position: absolute;
+    top: 1500px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+i{ 
+    color:white;
+    font-size:60px;
+    z-index:19;
+}
+.watch{
+    background-color:#606060;
+    position:relative;
+    width:120px;
+    height:30px;
+    border:0px;
+    size:100%;
+    color:white;
+}
+
+.watch:hover{
+    background-color:#ababab;
+    transform: scale(1.01);
+}
+
+.rizzler{
+    background-color:#606060;
+    position:relative;
+    height:30px;
+    width:80px;
+    border:0px;
+    size:100%;
+    color:white;
+}
+
+.rizzler:hover{
+    background-color:#ababab;
+    transform: scale(1.01);
+}
+
+.footer {
+    background-color: #808080;
+    border-top: 2px solid #333;
+    min-height: 38px;
+    margin: 0 0px;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+
+}
+
+.home-footer {
+    top: 1550px;
+}
+
+.promotion-footer {
+    top: 1650px;
+}
+
+.about-footer {
+    top: 1850px;
+}
+
+.contact-footer {
+    top: 1300px;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-right {
+    display: flex;
+    gap: 35px;
+}
+
+.footer-right a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 60px;
+    width: calc(100% - 100px);
+    margin: 0 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    
+}
+
+.video-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer */
+}
+
+.video-container::-webkit-scrollbar {
+    display: none; /* Chrome, Edge, Safari */
+}
+.video-card {
+    flex: 0 0 300px;
+    width: 300px;
+    position: static;
+}
+
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    background-color: #333;
+    color: white;
+    padding: 40px 60px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* LEFT SIDE */
+
+.contact-left {
+    width: 45%;
+}
+
+.contact-left h2 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.contact-left p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 380px;
+}
+
+.rating {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.rating h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.stars {
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+
+.stars span {
+    color: white;
+    cursor: pointer;
+}
+
+.stars span:nth-child(-n+3) {
+    color: #ffcc33;
+}
+
+/* RIGHT SIDE */
+
+.contact-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input {
+    height: 35px;
+    border: none;
+    background-color: white;
+    margin-bottom: 18px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 240px;
+    resize: vertical;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    width: 150px;
+    padding: 12px;
+    border: none;
+    background-color: #999;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.contact-form button:hover {
+    background-color: #777;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 650px) {
+    .contact-section {
+        flex-direction: column;
+        gap: 35px;
+        padding: 30px;
+    }
+
+    .contact-left,
+    .contact-form {
+        width: 100%;
+    }
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    position: relative !important;
+    z-index: 10000 !important;
+    pointer-events: auto !important;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    background-color: #333333;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
